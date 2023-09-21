@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    background-color: #e5f1f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+#main{
+    margin: 30px 8px;
+    padding: 15px;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+header p {
+    color: #333;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 16px 0;
+}
+
+#img-div{
+    padding: 10px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    color: #666;
+    font-size: 1.6rem;
+    margin: 15px auto 5px auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 50px 0;
+}
+
+h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+ul{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+blockquote{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+blockquote p {
+    color: #555;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+blockquote cite{
+    display: inline-block;
+    color: #555;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+#tribute-link:hover{
+    background-color: #555;
+}
+
+#tribute-link:visited{
+    color: skyblue;
+}
+
+@media (max-width: 700px){
+    ul{
+        padding: 0 10px;
+    }
+
+    blockquote p,  blockquote cite{
+        padding: 0 10px;
+    }
+}
